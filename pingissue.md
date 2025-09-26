@@ -92,7 +92,7 @@ worldlink.com.np
 - But if the highway is long (UK server), it still takes 300ms for the first car to arrive, no matter how wide the road is.
 
 ## So, ping is determined by:
-- Distance (Nepal ↔ UK is far).
+- Distance (Nepal <=> UK is far).
 - Routing (the internet path your ISP uses).
 - Network congestion / packet handling on the way.
 
@@ -105,6 +105,7 @@ worldlink.com.np
 - Packet loss: Some data packets never reach the server which causes video/voice to skip or freeze.
 - Jitter: Variation in packet arrival time which causes choppy (laggy) audio/video even if ping is low.
 - Both are independent of speed, just like ping.
+
 
 
 
