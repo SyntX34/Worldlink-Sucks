@@ -1,5 +1,5 @@
 ```
-ping 5.135.143.217**
+ping 5.135.143.217
 
 *Pinging 5.135.143.217 with 32 bytes of data:*
 
@@ -21,9 +21,9 @@ ping 5.135.143.217**
 ```
 
 #### **it used to be below 160, mostly in between 150-160 (packet loss from your side)**
+```
 nslookup 5.135.143.217
 
-```
 Server:  vip6-safenet-kmd01.wlink.com.np
 
 Address:  2400:1a00:0:32::165
@@ -36,9 +36,9 @@ Address:  5.135.143.217
 #### **(Please kindly look at your backend of your routes)**
 
 ```
-ping google.com**
+ping google.com
 
-*Pinging google.com \[2404:6800:4002:831::200e] with 32 bytes of data:*
+*Pinging google.com [2404:6800:4002:831::200e] with 32 bytes of data:*
 
 *Reply from 2404:6800:4002:831::200e: time=25ms*
 
@@ -59,11 +59,10 @@ ping google.com**
 
 
 I also have a Linux machine and its same, use your worldlink dns to check ping yourself! : 
-
-**vip6-safenet-kmd01.wlink.com.np**
-
-**worldlink.com.np***
-
+```
+vip6-safenet-kmd01.wlink.com.np
+worldlink.com.np
+```
 
 ##### ***This has to be inside 15ms, basically Google has 26 servers all over the world, and when you ping it's domain, it checks your location and ping you to nearest server for better response, same logic goes for Facebook, Instagram, Netflix, and discord (discord has 4 servers in total).***
 
@@ -106,6 +105,7 @@ I also have a Linux machine and its same, use your worldlink dns to check ping y
 - Packet loss: Some data packets never reach the server which causes video/voice to skip or freeze.
 - Jitter: Variation in packet arrival time which causes choppy (laggy) audio/video even if ping is low.
 - Both are independent of speed, just like ping.
+
 
 
 
