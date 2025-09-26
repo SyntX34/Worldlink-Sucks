@@ -1,10 +1,16 @@
-**ping 5.135.143.217**
+```
+ping 5.135.143.217**
 
 *Pinging 5.135.143.217 with 32 bytes of data:*
+
 *Reply from 5.135.143.217: bytes=32 time=278ms TTL=38*
+
 *Reply from 5.135.143.217: bytes=32 time=281ms TTL=38*
+
 *Reply from 5.135.143.217: bytes=32 time=276ms TTL=38*
+
 *Reply from 5.135.143.217: bytes=32 time=280ms TTL=38*
+
 *Ping statistics for 5.135.143.217:*
 
     *Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),*
@@ -12,21 +18,25 @@
 *Approximate round trip times in milli-seconds:*
 
     *Minimum = 276ms, Maximum = 281ms, Average = 278ms*
+```
 
 #### **it used to be below 160, mostly in between 150-160 (packet loss from your side)**
 nslookup 5.135.143.217
 
-*Server:  vip6-safenet-kmd01.wlink.com.np*
+```
+Server:  vip6-safenet-kmd01.wlink.com.np
 
-*Address:  2400:1a00:0:32::165*
+Address:  2400:1a00:0:32::165
 
-*Name:    ns3020544.ip-5-135-143.eu*
+Name:    ns3020544.ip-5-135-143.eu
 
-*Address:  5.135.143.217*
+Address:  5.135.143.217
+```
 
 #### **(Please kindly look at your backend of your routes)**
 
-**ping google.com**
+```
+ping google.com**
 
 *Pinging google.com \[2404:6800:4002:831::200e] with 32 bytes of data:*
 
@@ -38,8 +48,6 @@ nslookup 5.135.143.217
 
 *Reply from 2404:6800:4002:831::200e: time=23ms*
 
-
-
 *Ping statistics for 2404:6800:4002:831::200e:*
 
     *Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),*
@@ -47,6 +55,7 @@ nslookup 5.135.143.217
 *Approximate round trip times in milli-seconds:*
 
     *Minimum = 22ms, Maximum = 25ms, Average = 23ms
+```
 
 
 I also have a Linux machine and its same, use your worldlink dns to check ping yourself! : 
@@ -97,5 +106,6 @@ I also have a Linux machine and its same, use your worldlink dns to check ping y
 - Packet loss: Some data packets never reach the server which causes video/voice to skip or freeze.
 - Jitter: Variation in packet arrival time which causes choppy (laggy) audio/video even if ping is low.
 - Both are independent of speed, just like ping.
+
 
 
