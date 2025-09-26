@@ -75,8 +75,8 @@ nslookup 5.135.143.217
 
 I also have a Linux machine and its same, use your worldlink dns to check ping yourself! : 
 
-**vip6-safenet-kmd01.wlink.com.np
-worldlink.com.np***
+**vip6-safenet-kmd01.wlink.com.np**
+**worldlink.com.np***
 
 
 
@@ -99,4 +99,5 @@ worldlink.com.np***
 
 
 # **AGAIN, IT'S YOUR INTERNET ISSUE.** 
+
 
